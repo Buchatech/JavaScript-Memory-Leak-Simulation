@@ -15,11 +15,12 @@ JavaScript File (app.js):
 - stopLeak button: Stops the memory leak by clearing the interval.
 
 ## Steps to Run
-Create a directory for the project and save index.html and app.js in it.
-Open the index.html file in a web browser.
-Open the browser's Developer Tools (usually F12 or Ctrl+Shift+I).
-Click the "Start Memory Leak" button to start the memory leak simulation.
-Observe the memory consumption in the "Performance" or "Memory" tab in Developer Tools.
-Click the "Stop Memory Leak" button to stop the simulation.
+1. Create a repository on GitHub for the project and save index.html and app.js in it.
+2. Deploy the web app. I recommend using a static site in render.com.
+3. Open the site in a web browser.
+4. Open the browser's Developer Tools in Edge or Chrome>Performance.
+5. Click the "Start Memory Leak" button to start the memory leak simulation.
+6. Observe the memory consumption in the "Performance" or "Memory" tab in Developer Tools.
+7. Click the "Stop Memory Leak" button to stop the simulation.
 
 >This simple example demonstrates how continuously allocating memory without releasing it can cause a memory leak. In real applications, memory leaks can occur in various ways, such as unintentional references, event listeners not being removed, or improper use of closures.
