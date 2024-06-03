@@ -13,10 +13,22 @@ document.getElementById('startLeak').addEventListener('click', () => {
         }
         console.log(`Leaked objects count: ${memoryLeakArray.length}`);
     }, 1000);
+
+    // Disable start button and enable stop button
+    document.getElementById('startLeak').disabled = true;
+    document.getElementById('stopLeak').disabled = false;
 });
 
 document.getElementById('stopLeak').addEventListener('click', () => {
     clearInterval(leakInterval);
     leakInterval = null;
     console.log('Memory leak stopped');
+
+    // Enable start button and disable stop button
+    document.getElementById('startLeak').disabled = false;
+    document.getElementById('stopLeak').disabled = true;
 });
+
+// Initially disable the stop button
+document.getElementById('stopLeak').disabled = true;
+document.getElementById('stopLeak').classList.add('bg-gray-400', 'cursor-not-allowed');
