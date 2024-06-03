@@ -21,7 +21,7 @@
 1. Create a repository on GitHub for the project and save index.html and app.js in it.
 2. Deploy the web app. I recommend using a static site in render.com.
 3. Open the site in a web browser.
-4. Open the browser's Developer Tools in Edge or Chrome>Performance.
+4. Open the browser's Developer Tools in Edge or Chrome>Performance (Ctrl+Shift+I).
 5. Click the "Start Memory Leak" button to start the memory leak simulation.
 6. Observe the memory consumption in the "Performance" or "Memory" tab in Developer Tools.
 7. Click the "Stop Memory Leak" button to stop the simulation.
