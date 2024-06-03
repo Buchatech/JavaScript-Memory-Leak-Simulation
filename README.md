@@ -9,10 +9,10 @@
 
 **JavaScript File (app.js)**:
 
-- *memoryLeakArray:* An array that will keep references to the created objects, preventing them from being garbage collected.
-- *leakInterval:* Holds the reference to the setInterval function to control the memory leak simulation.
-- *startLeak button:* Starts the memory leak by creating objects and storing them in the memoryLeakArray every second.
-- *stopLeak button:* Stops the memory leak by clearing the interval.
+- **memoryLeakArray:** An array that will keep references to the created objects, preventing them from being garbage collected.
+- **leakInterval:** Holds the reference to the setInterval function to control the memory leak simulation.
+- **startLeak button:** Starts the memory leak by creating objects and storing them in the memoryLeakArray every second.
+- **stopLeak button:** Stops the memory leak by clearing the interval.
 
 ## Steps to Run
 1. Create a repository on GitHub for the project and save index.html and app.js in it.
