@@ -33,4 +33,5 @@
 
 
 >This simple JavaScript web app demonstrates how continuously allocating memory without releasing it can cause a memory leak. In real applications, memory leaks can occur in various ways. This is one example so you can test it using developer tools.
+
 >If you dont want to deploy your own site and just want to try it out check the site here: https://javascript-memory-leak-simulation.onrender.com. 
