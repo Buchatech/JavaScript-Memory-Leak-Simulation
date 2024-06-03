@@ -16,7 +16,12 @@ document.getElementById('startLeak').addEventListener('click', () => {
 
     // Disable start button and enable stop button
     document.getElementById('startLeak').disabled = true;
+    document.getElementById('startLeak').classList.add('bg-gray-400', 'cursor-not-allowed');
+    document.getElementById('startLeak').classList.remove('bg-green-500', 'hover:bg-green-600');
+
     document.getElementById('stopLeak').disabled = false;
+    document.getElementById('stopLeak').classList.remove('bg-gray-400', 'cursor-not-allowed');
+    document.getElementById('stopLeak').classList.add('bg-red-500', 'hover:bg-red-600');
 });
 
 document.getElementById('stopLeak').addEventListener('click', () => {
@@ -26,7 +31,12 @@ document.getElementById('stopLeak').addEventListener('click', () => {
 
     // Enable start button and disable stop button
     document.getElementById('startLeak').disabled = false;
+    document.getElementById('startLeak').classList.remove('bg-gray-400', 'cursor-not-allowed');
+    document.getElementById('startLeak').classList.add('bg-green-500', 'hover:bg-green-600');
+
     document.getElementById('stopLeak').disabled = true;
+    document.getElementById('stopLeak').classList.add('bg-gray-400', 'cursor-not-allowed');
+    document.getElementById('stopLeak').classList.remove('bg-red-500', 'hover:bg-red-600');
 });
 
 // Initially disable the stop button
