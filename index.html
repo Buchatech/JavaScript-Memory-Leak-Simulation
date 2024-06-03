@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memory Leak Simulation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Memory Leak Simulation</h1>
-    <button id="startLeak">Start Memory Leak</button>
-    <button id="stopLeak">Stop Memory Leak</button>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-md text-center">
+        <h1 class="text-2xl font-bold mb-4">Memory Leak Simulation</h1>
+        <div class="space-x-4">
+            <button id="startLeak" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">Start Memory Leak</button>
+            <button id="stopLeak" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Stop Memory Leak</button>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
