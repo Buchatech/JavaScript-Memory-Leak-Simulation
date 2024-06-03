@@ -23,4 +23,7 @@
 6. Observe the memory consumption in the "Performance" or "Memory" tab in Developer Tools.
 7. Click the "Stop Memory Leak" button to stop the simulation.
 
+<img width="704" alt="image" src="https://github.com/Buchatech/memoryleakbutton/assets/22551494/cac82e19-9ad3-40d8-9c6b-41da471e3d0f">
+
+
 >This simple JavaScript web app demonstrates how continuously allocating memory without releasing it can cause a memory leak. In real applications, memory leaks can occur in various ways. This is one example so you can test it using developer tools.
