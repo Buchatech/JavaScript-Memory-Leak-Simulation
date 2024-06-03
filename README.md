@@ -23,4 +23,4 @@ JavaScript File (app.js):
 6. Observe the memory consumption in the "Performance" or "Memory" tab in Developer Tools.
 7. Click the "Stop Memory Leak" button to stop the simulation.
 
->This simple example demonstrates how continuously allocating memory without releasing it can cause a memory leak. In real applications, memory leaks can occur in various ways, such as unintentional references, event listeners not being removed, or improper use of closures.
+>This simple JavaScript web app demonstrates how continuously allocating memory without releasing it can cause a memory leak. In real applications, memory leaks can occur in various ways. This is one example so you can test it using developer tools.
